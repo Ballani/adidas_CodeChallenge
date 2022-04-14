@@ -10,27 +10,27 @@
 
 
     1.2 What are the main testing challenges in this project?
-        1. Team Collaboration: As product teams are cross-functional teams with a focus on different topics,
-        2. Diversity in Testing Environments and Platforms
+        1. Team Collaboration: As product teams are cross-functional teams with a focus on different topics.
+        2. Diversity in Testing Environments and Platforms.
 
     1.3 How would you approach the test automation strategy in this project?
         1. The project has multiple platforms focusing on backend and front-end topics.
             1.1 My first priority would be to automate the regression suite, which would run after each deployment. saves effort and also helps in finding bugs that were introduced with deployment.
         2. API focused test automation suite and UI focused test automation suite to test APIs.Running component-level test cases on every MR to find bugs early before merging.
-        3. High-level E2E test cases that cover the essential end-user functionalities
+        3. High-level E2E test cases that cover the essential end-user functionalities.
         4. Non-functional testing involving the use of performance tools to evaluate an application's performance with multiple concurrent users.
 
 
     1.4 How would you approach the integration of automated tests into the project's CI/CD pipelines?
         1. Automation suites that are installed on every MR.
             1.1 Install Environment->Deploy Changes->Execute Tests->Report Results->Clean environment
-        2. Integrate the regression test suite into the release deployment pipeline. execute them once the release candidate is deployed.
+        2. Integrate the regression test suite into the release deployment pipeline. Execute them once the release candidate is deployed.
 
 
 ## Block 2: Methodology
 
     2.1 Which methodologies would you recommend for project development?
-        I recommend the Agile methodology with Scrum as a process.
+        I recommend Agile methodology with Scrum as a process.
     
     2.2 Why?
         1. Agile Scrum is an iterative methodology with a specific duration of time period. 
@@ -55,9 +55,9 @@
 
 
     3.3 Which mindset and attitude would you look for in your team?
-        1. An open and optimistic attitude toward team situations
+        1. An open and optimistic attitude towards team situations
         2. Trust and cooperation
-        3. Resiliency and self-sufficiency
+        3. Reliable and self-sufficient
 
 ## Block 4: Test Process
     4.1 How would you identify the test scenarios and test cases needed?
@@ -79,7 +79,6 @@
         1. The developer will execute white box tests like unit tests and also define the impact analysis.
         2. The tester will be responsible for preparing test analysis, test scenarios, test execution, bug reporting, and test reports.
         3. Split is done after knowing the architecture and functional requirements of the project.
-        4. For example, I will create a product team with a focus on the front end, back end, and integration.
 
  ## Block 5: Tools
     5.1 What tools do you use to manage tests?
@@ -97,13 +96,13 @@
              2.1. RestAssured API test using Selenium Java depending on the development stack.
              2.2. Cypress tool for API testing only if we have an FE automation suite with Cypress. This is because, keeping maintenance in mind, using multiple tools requires more maintenance, like version updates, different code bases, etc.
         3. For frameworks,
-             3.1. Serenity BDD using Gherkin, which has good maintainability, readability, and reports.
+             3.1. Serenity BDD using Gherkin, which has good maintainability, readability, and reporting.
 
 
     5.4 Which tools/frameworks would you use for FE testing and FE Automation?
         1. Cypress as FE automation tools for automation which has good sync, maintainability, time travel, and documentation.
         2. For frameworks,
-             2.1 Design Pattern with BDD: Page Object Model, which has good reusability and maintainability. 5.5:
+             2.1 Design Pattern with BDD: Page Object Model, which has good reusability and maintainability. 
 
 
     5.5 Which other tools would you use?
