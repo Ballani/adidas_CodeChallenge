@@ -63,7 +63,8 @@ Feature: Web Automation Tests on DemoBlaze Ecom Website
             | Laptops            | Sony vaio i5 | Phones             | Nexus 6      |
             | Monitors           | ASUS Full HD | Phones             | Nexus 6      |
             | Laptops            | Sony vaio i5 | Laptops            | Sony vaio i5 |
-    @focus
+    
+    
        Scenario Outline: Add Laptops, Mobile and Monitor to cart and place an order
         Given I open url
         When I navigate to category "<productCategoryOne>"
