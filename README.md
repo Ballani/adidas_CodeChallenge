@@ -10,7 +10,7 @@ Open a Terminal in the project root directory
 
 `$ npm install cypress --save-dev`
 
-Further details see [Cypress io npm install](https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install)
+for further details refer to [Cypress io npm install](https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install)
 
 ## Opening Cypress 
 
