@@ -1,0 +1,15 @@
+{"integrationFolder":"cypress/integration",
+"testfiles":"**/*.feature",
+"ignoreTestFiles": ["*.js", "*.md"],
+"viewportWidth": 1440,
+  "viewportHeight": 900,
+  "env": {
+    "baseUrl":"https://www.demoblaze.com/index.html",
+    "userName": "testUser",
+    "country": "Germany",
+    "city":"Berlin",
+    "card":"1111",
+    "month":"1",
+    "year":"2050"
+  }
+}

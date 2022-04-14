@@ -1,0 +1,24 @@
+{
+  "name": "kesava_qatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-plugin-tab": "^1.0.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration"
+  }
+}
